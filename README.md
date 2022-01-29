@@ -40,6 +40,7 @@ The steps followed were:
 * Reading the parquet files from raw bucket layer and checking which customers registry were updated
 ![listing-parquet](prints/listing-parquet.png)
 ![groupby-op](prints/groupby-op.png)
+
 So there were 499 registers, with 35 row updates.
 
 * Checking how an updated custumer is listed on the database. It has a column called "Op"
