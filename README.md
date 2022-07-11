@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This project was developed to simulate a development of a delta lake enviroment. The bronze layer was from raw parquet files created by a relational database migration service (it was migrated in [this](https://github.com/PHTF92/data-lake-example) project). The silver layer was built to store the processed data using Spark in delta/parquet formats. The Spark cluster was managed by Databricks and several kinds of processing were done, for educational porpouses. The data was saved into silver bucket in delta or parquet formats using batch or stream processing.
+This project was developed to simulate a development of a delta lake enviroment. The bronze layer was from raw parquet files created by a relational database migration service (it was migrated in [this](https://github.com/pedro-tofani/data-lake-example) project). The silver layer was built to store the processed data using Spark in delta/parquet formats. The Spark cluster was managed by Databricks and several kinds of processing were done, for educational porpouses. The data was saved into silver bucket in delta or parquet formats using batch or stream processing.
 
 "spark.ipynb" file will contain the work done. Databricks's Spark cluster also provides a HTML version of the notebook (spark.html).
 
